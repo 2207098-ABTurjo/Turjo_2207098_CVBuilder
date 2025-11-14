@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="533.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cvbuilder.HelloController">
+   <children>
+      <Label layoutX="238.0" layoutY="14.0" text="com.example.cvbuilder.CV Builder" />
+      <Label layoutX="106.0" layoutY="76.0" text="Name:" />
+      <TextField fx:id="name" layoutX="224.0" layoutY="72.0" prefHeight="26.0" prefWidth="200.0" promptText="Enter Your Name" />
+      <Label layoutX="106.0" layoutY="115.0" text="Email Address:" />
+      <TextField fx:id="email" layoutX="224.0" layoutY="111.0" prefHeight="26.0" prefWidth="200.0" promptText="Enter Email" />
+      <Label layoutX="106.0" layoutY="155.0" text="Phone Number:" />
+      <TextField fx:id="phone" layoutX="224.0" layoutY="151.0" prefHeight="26.0" prefWidth="200.0" promptText="Enter Phone Number" />
+      <Label layoutX="106.0" layoutY="200.0" text="Address:" />
+      <TextArea fx:id="address" layoutX="224.0" layoutY="200.0" prefHeight="46.0" prefWidth="200.0" />
+      <Label layoutX="106.0" layoutY="272.0" text="Educational Qualification:" />
+      <TextArea fx:id="edu" layoutX="106.0" layoutY="305.0" prefHeight="46.0" prefWidth="320.0" />
+      <Label layoutX="106.0" layoutY="366.0" text="Skills:" />
+      <TextArea fx:id="skills" layoutX="212.0" layoutY="368.0" prefHeight="26.0" prefWidth="214.0" />
+      <Label layoutX="106.0" layoutY="422.0" text="Work Experience:" />
+      <TextArea fx:id="work" layoutX="211.0" layoutY="425.0" prefHeight="39.0" prefWidth="214.0" />
+      <Label layoutX="109.0" layoutY="485.0" text="Projects:" />
+      <TextArea fx:id="project" layoutX="106.0" layoutY="511.0" prefHeight="66.0" prefWidth="320.0" />
+      <Button layoutX="224.0" layoutY="595.0" mnemonicParsing="false" onAction="#button" text="Build com.example.cvbuilder.CV" />
+   </children>
+</AnchorPane>
